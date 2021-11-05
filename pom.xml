@@ -22,31 +22,39 @@
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-core</artifactId>
 				<version>5.2.10.RELEASE</version>
-			</dependency> 
+			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-expression</artifactId>
 				<version>5.2.10.RELEASE</version>
-			</dependency> 
+			</dependency>
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context</artifactId>
-				<version>5.2.10.RELEASE</version>
-			</dependency> 		
+				<version>5.3.5</version> 
+			</dependency> 
+
 		</dependencies>
 	</dependencyManagement>
 
 	<dependencies>
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>5.3.5</version>
-		</dependency>
+			<version>5.3.5</version> 
+ 		</dependency>
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-web</artifactId>
 			<version>5.4.5</version>
-		</dependency>
+			<!-- <exclusions>
+				<exclusion>
+					<groupId>org.springframework</groupId>
+					<artifactId>spring-context</artifactId>
+				</exclusion>
+			</exclusions> -->
+		</dependency> 
 	</dependencies>
 
 	<build>
