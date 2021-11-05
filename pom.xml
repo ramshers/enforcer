@@ -31,7 +31,7 @@
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-context</artifactId>
-				<version>5.3.5</version> 
+				<version>5.2.10.RELEASE</version>
 			</dependency> 
 
 		</dependencies>
@@ -48,12 +48,12 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-web</artifactId>
 			<version>5.4.5</version>
-			<!-- <exclusions>
+			<exclusions>
 				<exclusion>
 					<groupId>org.springframework</groupId>
 					<artifactId>spring-context</artifactId>
 				</exclusion>
-			</exclusions> -->
+			</exclusions> 
 		</dependency> 
 	</dependencies>
 
